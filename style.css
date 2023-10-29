@@ -1,0 +1,153 @@
+body{
+    /* background: #4203a9; */
+    background-color: rgb(0,0,33);
+    color: #fff;
+}
+
+/* header styling */
+.navbar{
+    height: 80px;
+    background-color: rgb(18,18,62);
+}
+.navbar .left{
+    height: 80px;
+    font-size: 1.5rem;
+
+}
+.navbar .right ul{
+    height: 80px;
+    align-items: center;
+}
+.navbar .right ul li{
+    list-style: none;
+    margin: 0 27px;
+    cursor: pointer;
+}
+.navbar .right ul li a{
+    border: 2px solid transparent;
+    text-decoration: none;
+    color: #fff;
+    padding: 4px 9px;
+}
+.navbar .right ul li a:hover{
+    border: 2px solid gray;
+    border-radius: 5px;
+    color: gray;
+}
+
+
+.project-sub-header{
+    display: none;
+    background-color: rgb(18,18,62);
+    /* background-color: rgb(14, 14, 46); */
+    position: absolute;
+    top: 58px;
+    right: 260px;
+   padding: 10px 0 12px 4px;
+   /* box-shadow: 0px 0px 5px 3px rgb(24, 24, 86) ; */
+}
+.project-sub-header ul li{
+    padding: 10px 0;
+}
+.project-header:hover .project-sub-header{
+    display: block;
+}
+
+
+
+/* section-styling */
+
+/* first section */
+.first-section{
+    margin: 120px 0 150px 0;
+}
+.first-section .left{
+    font-size: 2.3rem;
+    width: 40vw;
+    margin-top: 70px;
+    text-align: center;
+    
+}
+.first-section .button{
+    padding: 20px 0px;
+}
+.first-section .btn{
+    padding: 8px;
+    background-color: #1e2167;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 7px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-right: 30px;
+}
+.first-section .btn:hover{
+    background: #2bab0d;
+    box-shadow: 3px 3px 2px rgb(43, 62, 107);
+}
+.first-section .right{
+    width: 40vw;
+}
+
+.first-section img{
+    width: 80%;
+}
+.purple{
+    color: violet;
+}
+#element{
+    color: violet;
+}
+
+main hr{
+    border: 0;
+    background: #9c97f1;
+    height: 1.3px;
+    margin: 40px 100px;
+}
+
+/* second-section */
+.second-section{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.second-section .work-box{
+    width: 80vw;
+    height: 2px;
+    background: #fff;
+    margin: 30px auto;
+}
+.second-section .verticle-line{
+    height: 50px;
+    width: 2px;
+    background: #fff;
+}
+.image-top{
+    width: 43px;
+    position: relative;
+    top: -30px;
+    left: -19px;
+}
+.verticle-title{
+    position: relative;
+    top: 23px;
+    width: 150px;
+}
+.verticle-desc{
+    position: relative;
+    top: 30px;
+    color: gray;
+    width: 150px;
+    font-size: 10px;
+}
+
+/* Footer styling */
+footer{
+    background-color: rgb(56, 54, 54);
+    height: 40vh;
+}
+.footer{
+    padding: 34px 70px;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satish - Developer Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600&family=Playfair+Display&family=Poppins&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utils.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar flex space-around">
+            <div class="left center">Satish's Portfolio</div>
+            <div class="right">
+                <ul class="flex">
+                    <li><a href="/My-Portfolio/index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li class="project-header"><a href="#">My Projects <i class="fa-solid fa-caret-down"></i></a>
+                        <div class="project-sub-header">
+                            <ul>
+                                <li id="minor-project"><a href="./project.html" target="_blank">Minor Project <i class="fa-solid fa-caret-right"></i></a></li>
+                                <li><a href="./project.html" target="_blank">Major Project <i class="fa-solid fa-caret-right"></i></a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#">Contact Me</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="first-section flex space-around">
+            <div class="left">
+                Hi, My name is <span class="purple">Satish</span>
+                <div>and I am a passionate </div>
+                <span id="element"></span>
+                <div class="button">
+                <!-- <a href="#"><button class="btn">Download Resume</button></a> -->
+                <a href="https://github.com/satish30118" target="_blank"><button class="btn">Visit GitHub</button></a>
+                <a href="https://www.linkedin.com/in/mauryasatish/" target="_blank"><button class="btn">Visit LinkedIn</button></a>
+            </div>
+            </div>
+            <div class="right">
+                <img src="developer.png" alt="">
+            </div>
+        </section>
+        <hr>
+       
+    </main>
+
+
+
+
+
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+
+  <!-- Load library from the CDN -->
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', 'Andorid Developer', 'Programmer', "Software Developer"],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+</body>
+
+</html>
+
+
